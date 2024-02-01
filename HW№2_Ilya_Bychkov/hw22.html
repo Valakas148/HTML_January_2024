@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+
+        }
+        #mainDiv{
+            height: 200px;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .squares{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            transition: 2s;
+        }
+        .squares:hover{
+            border-radius: 50px;
+            transition: 1s;
+            background-color: aliceblue;
+        }
+        #secret:hover{
+            border-radius: 50px;
+            transition: 1s;
+            background-color: salmon;
+        }
+    </style>
+</head>
+<body>
+<div id="mainDiv">
+<div class="squares"></div>
+<div class="squares"></div>
+<div class="squares"></div>
+<div class="squares"></div>
+<div class="squares"></div>
+<div class="squares" id="secret"></div>
+</div>
+</body>
+</html>
