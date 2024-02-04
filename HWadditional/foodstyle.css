@@ -1,0 +1,45 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#mainDiv{
+    width: 900px;
+}
+#Header{
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+.indiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#FoodDiv{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.food{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 200px;
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
