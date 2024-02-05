@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    height: 15vh;
+    background: #D9D9D9;
+}
+main{
+    display: flex;
+}
+article{
+    width: 20vw;
+    height: 70vh;
+    background: #817C7C;
+}
+.content1{
+    width: 65vw;
+    height: 35vh;
+    background: #ABA8A8;
+}
+.content2{
+    width: 65vw;
+    height: 35vh;
+    background: #878484;
+}
+aside{
+    width: 20vw;
+    height: 70vh;
+    background: #B7AEAE;
+}
+footer{
+    height: 15vh;
+    background: #BDBDBD;
+}
+p{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+}
+.fortext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+header{
+    height: 15vh;
+    background: #927D7D;
+}
+footer{
+    height: 15vh;
+    background: #BDBDBD;
+}
+main{
+    display: flex;
+}
+.aside-left{
+    width: 20vw;
+    height: 70vh;
+    background: #817C7C;
+}
+section{
+    width: 80vw;
+    height: 70vh;
+    background: #A74848;
+}
+.aside-right{
+    width: 20vw;
+    height: 70vh;
+    background: #B7AEAE;
+}

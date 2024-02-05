@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    height: 15vh;
+    background: #8D8484;
+}
+main{
+    display: flex;
+}
+.content1{
+    width: 75vw;
+    height: 23.2vh;
+    background: #776969;
+}
+.content2{
+    width: 75vw;
+    height: 24.3vh;
+    background: #643030;
+}
+.content3{
+    width: 75vw;
+    height: 24.5vh;
+    background: #441818;
+}
+.spam1{
+    width: 25.1vw;
+    height: 37vh;
+    background: #937575;
+}
+.spam2{
+    width: 25.1vw;
+    height: 35vh;
+    background: #644C4C;
+}
+footer{
+    height: 13vh;
+    background: #BDBDBD;
+}
+p{
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+}
+.fortext{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fortext-1{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
