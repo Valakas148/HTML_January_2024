@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+main{
+
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+.section1{
+    background: url("https://s3-alpha-sig.figma.com/img/f2d3/038b/985d94469dd3e4e59a048b8ad995f428?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hLAVI7OyverQJfeSjwXU0mV~cZCpxyADoJQThOkQP~ZnsuWbLYpn6TbOO9NAxwJGCZLFqtDONtZ1WR~EjOxFMOOH731-sFBVlxd0N1qfupmvMNJ~qrSYyin-fN9GVh9sZBU-sBgq8Ic~3LopIhRyyLSOU7I1UpuqyX9sEHelsqFD3iGY8Q9FouAzNRyRY9fTqIFEJdRniofkjBZlHe8dgnn9p7vbGQ4Ifm7~-6ECyECk7B7wHPD9vSpI9i~TkECwYRf7jLecM55W~5oQ06I3PHTCinV6fj5UfjzyUxqc51-gKkk3nC6oLsfG4Nl6KF~Die3Iz4wC1E-2BR0IEhAIgg__") lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_block{
+    width: 35vw;
+    height: 40vh;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#special_text{
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: KoHo, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text_block p{
+    color: #000;
+    font-family: KoHo, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
+.text_block button{
+    color: #000;
+    font-family: KoHo, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.section2{
+    background: url("../photo/Rectangle4.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+iframe{
+    margin-top: 40px;
+}
+.section2 p{
+    width: 65vw;
+    height: 20vh;
+    color: #000;
+    font-family: KoHo, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 110px;
+}
+.section3{
+    background: url("../photo/Rectangle16.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blocks{
+    width: 30vw;
+    height: 80vh;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blocks p{
+    color: #000;
+    font-family: KoHo, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+button{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-family: KoHo, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#img_from_figma{
+    width: 35vw;
+    height: 40vh;
+}
+.nature{
+    width: 20vw;
+    height: 25vh;
+}
