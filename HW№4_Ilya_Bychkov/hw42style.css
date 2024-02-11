@@ -58,6 +58,12 @@ img{
     text-decoration: none;
     color: #699BF7;
 }
+.input-content>a>img{
+    width: 23px;
+    height: 23px;
+    margin-right: 2px;
+    margin-top: 3px;
+}
 input[type="text"],input[type="password"]{
     width: 350px;
     height: 40px;
