@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+main>div{
+    background-color: gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    grid-area: A;
+}
+.b{
+    grid-area: B;
+}
+.c{
+    grid-area: C;
+}
+main{
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+    "A A"
+    "B C";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 5px;
+}

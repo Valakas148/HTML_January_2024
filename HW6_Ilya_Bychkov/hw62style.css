@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+main>div{
+    background-color: gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    grid-area: A;
+}
+.b{
+    grid-area: B;
+}
+.c{
+    grid-area: C;
+}
+.d{
+    grid-area: D;
+}
+.e{
+    grid-area: E;
+}
+.f{
+    grid-area: F;
+}
+main{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-areas:
+    "A A A A"
+    "B B B F"
+    "C D E F";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 5px;
+}
