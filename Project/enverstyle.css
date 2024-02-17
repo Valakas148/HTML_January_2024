@@ -378,3 +378,6 @@ footer>div>p{
     letter-spacing: -0.5px;
     margin-right: 100px;
 }
+.formobile{
+    display: none;
+}
